@@ -2,7 +2,7 @@
   hosts: localhost 
   become: yes
   tasks:
-    - name: Install HAProxy
+    - name: Install HAProxy 123
       apt:
         name: haproxy
         state: latest
