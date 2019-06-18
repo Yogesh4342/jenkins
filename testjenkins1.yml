@@ -2,7 +2,7 @@
   hosts: all 
   become: yes
   tasks:
-    - name: create index.html file1
+    - name: create index.html file2
       copy:
         src: /var/lib/jenkins/workspace/job6/index.html       
         dest: /var/www/html/index.html
