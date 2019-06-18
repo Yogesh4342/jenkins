@@ -4,6 +4,6 @@
   tasks:
     - name: create index.html file
       copy:
-        src: //var/lib/jenkins/workspace/job6/index.html       
+        src: /var/lib/jenkins/workspace/job6/index.html       
         dest: /var/www/html/index.html
         force: yes
